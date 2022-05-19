@@ -1,3 +1,10 @@
+# Debugging an issue where some files are rejected
+This appears to be happening on _some_ RP instances only.
+
+  * rpki-client output is in `stdout.txt`
+  * Cache directory is in `20220519-rpki-client-apnic-cache.tar.xz`
+
+
 ```
 # Store the cache for rpki-client running against apnic
 tar -cf ~/20220519-rpki-client-apnic-cache.tar -C `pwd` apnic/
